@@ -268,15 +268,16 @@
         AirportSource:"DMK",
         Destination:"เชียงราย",
         AirportDestination:"CEI",
-        Date:"07 DEC 2020",
-        DepartureTime:"08.40",
-        ArrivingTime:"10.05",
+        DateDetail:[{DateStart:{
+            Date:"07 DEC 2020",
+            DepartureTime:"08.40",
+            ArrivingTime:"10.05"}}],
         CaptionName:"กรเศก โคนินทร์",
         CoPilotName:"คงกะพัน แสงสุริยะ",
         Numberofreceptionist:5
     },{
         FlightNo:"NH806",
-        Type:"two-ways",
+        Type:"one-ways",
         Class:[{
             FirstClass:{Price:55400,NumberOfPassengers:14},
             BusinessClass:{Price:21500,NumberOfPassengers:60},
@@ -286,9 +287,10 @@
         AirportSource:"ท่าอากาศยานสุวรรณภูมิ",
         Destination:"โอซาก้า คันไซ (KIX)",
         AirportDestination:"ท่าอากาศยานนานาชาตินะริตะ",
-        Date:"07 DEC 2020",
-        DepartureTime:"07.01",
-        ArrivingTime:"15.05",
+        DateDetail:[{DateStart:{
+            Date:"07 DEC 2020",
+            DepartureTime:"07.01",
+            ArrivingTime:"15.05"}}],
         CaptionName:"เคลลี่ ธนะพัฒน์",
         CoPilotName:"เจียร จารุจรณ",
         Numberofreceptionist:7
@@ -302,252 +304,281 @@
         AirportSource:"ท่าอากาศยานนานาชาตินะริตะ",
         Destination:"โอซาก้า คันไซ(KIX)",
         AirportDestination:"ท่าอากาศยานนานาชาติคันไซ",
-        Date:"08 DEC 2020",
-        DepartureTime:"20.30",
-        ArrivingTime:"21.50",
+        DateDetail:[{DateStart:{
+            Date:"08 DEC 2020",
+            DepartureTime:"20.30",
+            ArrivingTime:"21.50"}}],
         CaptionName:"มายะ โยชิดะ",
         CoPilotName:"ซาโอริ คิมูระ",
         Numberofreceptionist:5
     },{
-        FlightNo:"",
-        Type:"",
+        FlightNo:"KE654 Boeing 777",
+        Type:"two-ways",
         Class:[{
-            FirstClass:{Price:"",NumberOfPassengers:""},
-            BusinessClass:{Price:"",NumberOfPassengers:""},
-            Economy:{Price:"",NumberOfPassengers:""}
+            FirstClass:{Price:84200,NumberOfPassengers:10},
+            BusinessClass:{Price:54200,NumberOfPassengers:50},
+            Economy:{Price:28973,NumberOfPassengers:400}
         }],
-        Source:"",
-        AirportSource:"",
-        Destination:"",
-        AirportDestination:"",
-        Date:"",
-        DepartureTime:"",
-        ArrivingTime:"",
-        CaptionName:"",
-        CoPilotName:"",
-        Numberofreceptionist:""
+        Source:"กรุงเทพมหานคร(BKK)",
+        AirportSource:"ท่าอากาศยานสุวรรณภูมิ",
+        Destination:"โซล(ICN)",
+        AirportDestination:"ท่าอากาศยานนานาชาติอินชอน",
+        DateDetail:[{DateStart:{
+            Date:"22 DEC 2020",
+            DepartureTime:"01.00",
+            ArrivingTime:"08.30"},
+        DateEnd:{
+            Date:"25 DEC 2020",
+            DepartureTime:"07.00",
+            ArrivingTime:"15.30"
+            }}],
+        CaptionName:"เดชบดินทร์ ฉายทองดี",
+        CoPilotName:"ดรัลชรัส ศุขีวิริยะ",
+        Numberofreceptionist:8
     },{
-        FlightNo:"",
-        Type:"",
+        FlightNo:"SL644",
+        Type:"one-ways",
         Class:[{
-            FirstClass:{Price:"",NumberOfPassengers:""},
-            BusinessClass:{Price:"",NumberOfPassengers:""},
-            Economy:{Price:"",NumberOfPassengers:""}
+            Economy:{Price:1615,NumberOfPassengers:203}
         }],
-        Source:"",
-        AirportSource:"",
-        Destination:"",
-        AirportDestination:"",
-        Date:"",
-        DepartureTime:"",
-        ArrivingTime:"",
-        CaptionName:"",
-        CoPilotName:"",
-        Numberofreceptionist:""
+        Source:"กรุงเทพฯ,ดอนเมือง(DMK)",
+        AirportSource:"สนามบินดอนเมือง",
+        Destination:"ขอนแก่น(KKC)",
+        AirportDestination:"สนามบินขอนแก่น",
+        Date:"07 DEC 2020",
+        DepartureTime:"14.05",
+        ArrivingTime:"15.10",
+        CaptionName:"ทวีฤทธิ์ จุลละทรัพย์",
+        CoPilotName:"ทะเล สงวนดีกุล",
+        Numberofreceptionist:5
     },{
-        FlightNo:"",
-        Type:"",
+        FlightNo:"OD348",
+        Type:"one-ways",
         Class:[{
-            FirstClass:{Price:"",NumberOfPassengers:""},
-            BusinessClass:{Price:"",NumberOfPassengers:""},
-            Economy:{Price:"",NumberOfPassengers:""}
+            FirstClass:{Price:35400,NumberOfPassengers:7},
+            BusinessClass:{Price:18236,NumberOfPassengers:20},
+            Economy:{Price:7622,NumberOfPassengers:234}
         }],
-        Source:"",
-        AirportSource:"",
-        Destination:"",
-        AirportDestination:"",
-        Date:"",
-        DepartureTime:"",
-        ArrivingTime:"",
-        CaptionName:"",
-        CoPilotName:"",
-        Numberofreceptionist:""
+        Source:"กัวลาลัมเปอร์(KUL)",
+        AirportSource:"สนามบินนานาชาติกลัวลาลัมเปอร์",
+        Destination:"จาการ์ตา",
+        AirportDestination:"สนามบินนานาชาติซูการ์โนฮัตตา",
+        DateDetail:[{Datestart:{
+            Date:"09 DEC 2020",
+            DepartureTime:"17.00",
+            ArrivingTime:"18.10"}}],
+        CaptionName:"โรเจอร์ สตีเวนส์",
+        CoPilotName:"เบรตต์ เฮนดริก",
+        Numberofreceptionist:7
     },{
-        FlightNo:"",
-        Type:"",
+        FlightNo:"SD340",
+        Type:"two-ways",
         Class:[{
-            FirstClass:{Price:"",NumberOfPassengers:""},
-            BusinessClass:{Price:"",NumberOfPassengers:""},
-            Economy:{Price:"",NumberOfPassengers:""}
+            FirstClass:{Price:70842,NumberOfPassengers:10},
+            BusinessClass:{Price:54002,NumberOfPassengers:40},
+            Economy:{Price:20350,NumberOfPassengers:430}
         }],
-        Source:"",
-        AirportSource:"",
-        Destination:"",
-        AirportDestination:"",
-        Date:"",
-        DepartureTime:"",
-        ArrivingTime:"",
-        CaptionName:"",
-        CoPilotName:"",
-        Numberofreceptionist:""
+        Source:"กรุงเทพมหานคร(BKK)",
+        AirportSource:"สนามบินสุวรรณภูมิ",
+        Destination:"ซิดนีย์(SYD)",
+        AirportDestination:"ท่าอากาศยานนานาชาติคิงส์ฟอร์ดสมิธ",
+        DateDetail:[{Datestart:{
+            Date:"12 DEC 2020",
+            DepartureTime:"03.40",
+            ArrivingTime:"16.00"}},{
+        DateEnd:{
+            Date:"19 DEC 2020",
+            DepartureTime:"07.40",
+            ArrivingTime:"20.10"  
+            }}],
+        CaptionName:"ธนา สุทธิกมล",
+        CoPilotName:"เบรตต์ เฮนดริก",
+        Numberofreceptionist:14
     }]
 },{
     NameAirline:"Bangkok Airways",
     FlightDetail:[{
-        FlightNo:"",
-        Type:"",
+        FlightNo:"PG299",
+        Type:"two-ways",
         Class:[{
-            FirstClass:{Price:"",NumberOfPassengers:""},
-            BusinessClass:{Price:"",NumberOfPassengers:""},
-            Economy:{Price:"",NumberOfPassengers:""}
+            FirstClass:{Price:5400,NumberOfPassengers:5},
+            BusinessClass:{Price:3870,NumberOfPassengers:20},
+            Economy:{Price:1240,NumberOfPassengers:157}
         }],
-        Source:"",
-        AirportSource:"",
-        Destination:"",
-        AirportDestination:"",
-        Date:"",
-        DepartureTime:"",
-        ArrivingTime:"",
-        CaptionName:"",
-        CoPilotName:"",
-        Numberofreceptionist:""
+        Source:"หาดใหญ่(HDY)",
+        AirportSource:"ท่าอากาศยานนานาชาติหาดใหญ่",
+        Destination:"ภูเก็ต(HKT)",
+        AirportDestination:"ท่าอากาศยานภูเก็ต",
+        DateDetail:[{DateStart:{
+            Date:"25 OCT 2020",
+            DepartureTime:"09.10",
+            ArrivingTime:"10.15"}},
+        {DateEnd:{
+            Date:"29 OCT 2020",
+            DepartureTime:"07.10",
+            ArrivingTime:"09.15"
+        }}],
+        CaptionName:"ธนพล พีชะพัฒน์",
+        CoPilotName:"นฤเบศร์ จินปิ่นเพชร",
+        Numberofreceptionist:8
     },{
-        FlightNo:"",
-        Type:"",
+        FlightNo:"PG242",
+        Type:"one-ways",
         Class:[{
-            FirstClass:{Price:"",NumberOfPassengers:""},
-            BusinessClass:{Price:"",NumberOfPassengers:""},
-            Economy:{Price:"",NumberOfPassengers:""}
+            Economy:{Price:2840,NumberOfPassengers:259}
         }],
-        Source:"",
-        AirportSource:"",
-        Destination:"",
-        AirportDestination:"",
-        Date:"",
-        DepartureTime:"",
-        ArrivingTime:"",
-        CaptionName:"",
-        CoPilotName:"",
-        Numberofreceptionist:""
+        Source:"เชียงใหม่(CNX)",
+        AirportSource:"ท่าอากาศยานเชียงใหม่",
+        Destination:"สมุย(USM)",
+        AirportDestination:"สนามบินสมุย",
+        DateDetail:[{Datestart:{
+            Date:"08 DEC 2020",
+            DepartureTime:"14.35",
+            ArrivingTime:"16.40"}}],
+        CaptionName:"ปริญญา ปุ่นสกุล",
+        CoPilotName:"พศุตม์ บานแย้ม",
+        Numberofreceptionist:5
     },{
-        FlightNo:"",
-        Type:"",
+        FlightNo:"PG230",
+        Type:"one-ways",
         Class:[{
-            FirstClass:{Price:"",NumberOfPassengers:""},
-            BusinessClass:{Price:"",NumberOfPassengers:""},
-            Economy:{Price:"",NumberOfPassengers:""}
+            BusinessClass:{Price:4850,NumberOfPassengers:20},
+            Economy:{Price:1925,NumberOfPassengers:240}
         }],
-        Source:"",
-        AirportSource:"",
-        Destination:"",
-        AirportDestination:"",
-        Date:"",
-        DepartureTime:"",
-        ArrivingTime:"",
-        CaptionName:"",
-        CoPilotName:"",
-        Numberofreceptionist:""
+        Source:"เชียงใหม่(CNX)",
+        AirportSource:"ท่าอากาศยานเชียงใหม่",
+        Destination:"กรุงเทพมหานคร(BKK)",
+        AirportDestination:"สนามบินสุวรรณภูมิ",
+        DateDetail:[{DateStart:{
+            Date:"09 DEC 2020",
+            DepartureTime:"09.00",
+            ArrivingTime:"10.25"}}],
+        CaptionName:"บัณฑวิช ตระกูลพานิชย์",
+        CoPilotName:"บรมวุฒิ หิรัญยัษฐิติ",
+        Numberofreceptionist:6
     },{
-        FlightNo:"",
-        Type:"",
+        FlightNo:"PG203",
+        Type:"two-ways",
         Class:[{
-            FirstClass:{Price:"",NumberOfPassengers:""},
-            BusinessClass:{Price:"",NumberOfPassengers:""},
-            Economy:{Price:"",NumberOfPassengers:""}
+            Economy:{Price:2840,NumberOfPassengers:197}
         }],
-        Source:"",
-        AirportSource:"",
-        Destination:"",
-        AirportDestination:"",
-        Date:"",
-        DepartureTime:"",
-        ArrivingTime:"",
-        CaptionName:"",
-        CoPilotName:"",
-        Numberofreceptionist:""
+        Source:"กรุงเทพมหานคร(BKK)",
+        AirportSource:"สนามบินสวุรรณภูมิ",
+        Destination:"ลำปาง(LPT)",
+        AirportDestination:"ท่าอากาศยานลำปาง",
+        DateDetail:[{Datestart:{
+            Date:"25 DEC 2020",
+            DepartureTime:"08.15",
+            ArrivingTime:"09.50"}},
+        {DateEnd:{
+            Date:"27 DEC 2020",
+            DepartureTime:"11.50",
+            ArrivingTime:"09.50"}}],
+            CaptionName:"บัณฑวิช ตระกูลพานิชย์",
+            CoPilotName:"บรมวุฒิ หิรัญยัษฐิติ",
+        Numberofreceptionist:7
     },{
-        FlightNo:"",
-        Type:"",
+        FlightNo:"PG209",
+        Type:"two-ways",
         Class:[{
-            FirstClass:{Price:"",NumberOfPassengers:""},
-            BusinessClass:{Price:"",NumberOfPassengers:""},
-            Economy:{Price:"",NumberOfPassengers:""}
+            Economy:{Price:2430,NumberOfPassengers:340}
         }],
-        Source:"",
-        AirportSource:"",
-        Destination:"",
-        AirportDestination:"",
-        Date:"",
-        DepartureTime:"",
-        ArrivingTime:"",
-        CaptionName:"",
-        CoPilotName:"",
-        Numberofreceptionist:""
+        Source:"กรุงเทพมหานคร(BKK)",
+        AirportSource:"สนามบินสวุรรณภูมิ",
+        Destination:"สุโขทัย(THS)",
+        AirportDestination:"ท่าอากาศยานสุโขทัย",
+        DateDetail:[{Date:{
+            Date:"25 OCT 2021",
+            DepartureTime:"13.10",
+            ArrivingTime:"14.30"}},
+        {DateEnd:{
+            Date:"31 OCT 2021",
+            DepartureTime:"15.30",
+            ArrivingTime:"16.50"
+        }}],
+        CaptionName:"ปกรณ์ มะโน",
+        CoPilotName:"พิพัฒน์ วิทยาปัญญานนท์",
+        Numberofreceptionist:8
     },{
-        FlightNo:"",
-        Type:"",
+        FlightNo:"PG292",
+        Type:"one-ways",
         Class:[{
-            FirstClass:{Price:"",NumberOfPassengers:""},
-            BusinessClass:{Price:"",NumberOfPassengers:""},
-            Economy:{Price:"",NumberOfPassengers:""}
+            Economy:{Price:780,NumberOfPassengers:198}
         }],
-        Source:"",
-        AirportSource:"",
-        Destination:"",
-        AirportDestination:"",
-        Date:"",
-        DepartureTime:"",
-        ArrivingTime:"",
-        CaptionName:"",
-        CoPilotName:"",
-        Numberofreceptionist:""
+        Source:"ภูเก็ต(HKT)",
+        AirportSource:"ท่าอากาศยานภูเก็ต",
+        Destination:"สมุย(USM)",
+        AirportDestination:"สนามบินสมุย",
+        DateDetail:[{DateStart:{
+            Date:"02 NOV 2020",
+            DepartureTime:"11.05",
+            ArrivingTime:"12.00"}}],
+        CaptionName:"ปกรณ์ มะโน",
+        CoPilotName:"พิพัฒน์ วิทยาปัญญานนท์",
+        Numberofreceptionist:7
     },{
-        FlightNo:"",
-        Type:"",
+        FlightNo:"PG293",
+        Type:"one-ways",
         Class:[{
-            FirstClass:{Price:"",NumberOfPassengers:""},
-            BusinessClass:{Price:"",NumberOfPassengers:""},
-            Economy:{Price:"",NumberOfPassengers:""}
+            Economy:{Price:780,NumberOfPassengers:230}
         }],
-        Source:"",
-        AirportSource:"",
-        Destination:"",
-        AirportDestination:"",
-        Date:"",
-        DepartureTime:"",
-        ArrivingTime:"",
-        CaptionName:"",
-        CoPilotName:"",
-        Numberofreceptionist:""
+        Source:"ภูเก็ต(HKT)",
+        AirportSource:"ท่าอากาศยานภูเก็ต",
+        Destination:"สมุย(USM)",
+        AirportDestination:"สนามบินสมุย",
+        DateDetail:[{DateStart:{
+            Date:"03 NOV 2020",
+            DepartureTime:"11.05",
+            ArrivingTime:"12.00"}}],
+        CaptionName:"พุทธิพงษ์ คล้ำจีนภาณุวงศ์",
+        CoPilotName:"ภูมิภาฑิต นิตยารส",
+        Numberofreceptionist:4
     }]
 },{
     NameAirline:"Air Asia",
     FlightDetail:[{
-        FlightNo:"",
-        Type:"",
+        FlightNo:"EY405",
+        Type:"two-ways",
         Class:[{
-            FirstClass:{Price:"",NumberOfPassengers:""},
-            BusinessClass:{Price:"",NumberOfPassengers:""},
-            Economy:{Price:"",NumberOfPassengers:""}
+            FirstClass:{Price:87950,NumberOfPassengers:7},
+            BusinessClass:{Price:58710,NumberOfPassengers:45},
+            Economy:{Price:34587,NumberOfPassengers:487}
         }],
-        Source:"",
-        AirportSource:"",
-        Destination:"",
-        AirportDestination:"",
-        Date:"",
-        DepartureTime:"",
-        ArrivingTime:"",
-        CaptionName:"",
-        CoPilotName:"",
-        Numberofreceptionist:""
+        Source:"กรุงเทพมหานคร(BKK)",
+        AirportSource:"ท่าอากาศยานสุวรรณภูมิ",
+        Destination:"วอชิงตัน ดี.ซี.(BWI)",
+        AirportDestination:"ท่าอากาศยานนานาชาติบัลติมอร์/วอชิงตัน เธอร์กู้ด มาร์แชล",
+        DateDetail:[{DateStart:{
+            Date:"13 DEC 2020",
+            DepartureTime:"00.20",
+            ArrivingTime:"21.51"}},
+        {DateEnd:{
+            Date:"16 DEC 2020",
+            DepartureTime:"16.00",
+            ArrivingTime:"12.51"
+        }}],
+        CaptionName:"ภูวดล เวชวงศา",
+        CoPilotName:"ยุทธพิชัย ชาญเลขา",
+        Numberofreceptionist:14
     },{
-        FlightNo:"",
-        Type:"",
+        FlightNo:"EY408",
+        Type:"one-ways",
         Class:[{
-            FirstClass:{Price:"",NumberOfPassengers:""},
-            BusinessClass:{Price:"",NumberOfPassengers:""},
-            Economy:{Price:"",NumberOfPassengers:""}
+            FirstClass:{Price:68457,NumberOfPassengers:14},
+            BusinessClass:{Price:47852,NumberOfPassengers:49},
+            Economy:{Price:24595,NumberOfPassengers:587}
         }],
-        Source:"",
-        AirportSource:"",
-        Destination:"",
-        AirportDestination:"",
-        Date:"",
-        DepartureTime:"",
-        ArrivingTime:"",
-        CaptionName:"",
-        CoPilotName:"",
-        Numberofreceptionist:""
+        Source:"กรุงเทพมหานคร(BKK)",
+        AirportSource:"ท่าอากาศยานสุวรรณภูมิ",
+        Destination:"อาบูดาบี(AUH)",
+        AirportDestination:"ท่าอากาศยานนานาชาติอาบูดาบี",
+        DateDetail:[{DateStart:{
+            Date:"17 DEC 2020",
+            DepartureTime:"00.12",
+            ArrivingTime:"07.28"}}],
+        CaptionName:"รอน บรรจงสร้าง",
+        CoPilotName:"รุ่ง สุริยา",
+        Numberofreceptionist:8
     },{
         FlightNo:"",
         Type:"",
