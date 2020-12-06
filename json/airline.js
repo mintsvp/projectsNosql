@@ -293,23 +293,21 @@
         CoPilotName:"เจียร จารุจรณ",
         Numberofreceptionist:7
     },{
-        FlightNo:"",
-        Type:"",
+        FlightNo:"NH97",
+        Type:"one-ways",
         Class:[{
-            FirstClass:{Price:"",NumberOfPassengers:""},
-            BusinessClass:{Price:"",NumberOfPassengers:""},
-            Economy:{Price:"",NumberOfPassengers:""}
+            Economy:{Price:2870,NumberOfPassengers:320}
         }],
-        Source:"",
-        AirportSource:"",
-        Destination:"",
-        AirportDestination:"",
-        Date:"",
-        DepartureTime:"",
-        ArrivingTime:"",
-        CaptionName:"",
-        CoPilotName:"",
-        Numberofreceptionist:""
+        Source:"โตเกียว(NRT)",
+        AirportSource:"ท่าอากาศยานนานาชาตินะริตะ",
+        Destination:"โอซาก้า คันไซ(KIX)",
+        AirportDestination:"ท่าอากาศยานนานาชาติคันไซ",
+        Date:"08 DEC 2020",
+        DepartureTime:"20.30",
+        ArrivingTime:"21.50",
+        CaptionName:"มายะ โยชิดะ",
+        CoPilotName:"ซาโอริ คิมูระ",
+        Numberofreceptionist:5
     },{
         FlightNo:"",
         Type:"",
